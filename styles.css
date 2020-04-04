@@ -14,10 +14,11 @@ body{
 }
 @media(max-width:768px){
     #logo img{
-        width:50%;
+        width:50% !important;
     }
     #counter .countdown{
         font-size: 2em !important;
+        
     }
     #icons .fa{
         margin: 10px 0 0 !important;
@@ -26,14 +27,16 @@ body{
     }
     #intro p{
         font-size: 0.8em !important;
+        margin-top: 20px;
     }
 }
 @media(min-width:321px) and (max-width:568px){
     #logo img{
-        width:20%;
+        width:50% !important;
     }
     #intro p{
         font-size: 0.8em !important;
+        margin-top: 20px;
     }
 }
 #intro p{
