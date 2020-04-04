@@ -1,0 +1,95 @@
+
+body{
+    background-color: #282b2e;
+    background-image: url(star-bg.svg);
+    background-repeat: repeat-x ;
+    background-position: center 0, 0 0, 0 0;
+    background-size: cover;
+    height: 100%;
+}
+#logo img{
+    margin:0 auto;
+    padding-top: 20px;
+    width: 28%;
+}
+@media(max-width:768px){
+    #logo img{
+        width:50%;
+    }
+    #counter .countdown{
+        font-size: 2em !important;
+    }
+    #icons .fa{
+        margin: 10px 0 0 !important;
+        font-size: 2em;
+
+    }
+    #intro p{
+        font-size: 0.8em !important;
+    }
+}
+@media(min-width:321px) and (max-width:568px){
+    #logo img{
+        width:20%;
+    }
+    #intro p{
+        font-size: 0.8em !important;
+    }
+}
+#intro p{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin-top: 20px;
+}
+#counter .countdown{
+    text-align: center;
+    color: white;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 4em;
+    margin: -15px 0 0;
+}
+#icons{
+    text-align: center;
+}
+#icons .fab{
+    color: white;
+    margin: 5px 15px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+}
+#icons .insta{
+    color: #dd2a7b;
+}
+
+#icons .face{
+    color: #3b5998;
+}
+#icons .what{
+    color: #25d366;
+}
+#icons .fas{
+    color: #ea4335;
+    margin: 5px 15px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+}
+#icons .insta:hover{
+    color: #dd2a7b;
+    bottom: 5px;
+}
+#icons .face:hover{
+    color: #3b5998;
+    bottom: 5px;
+}
+#icons .twit:hover{
+    color: #ea4335;
+    bottom: 5px;
+}
+#icons .what:hover{
+    color: #25d366;
+    bottom: 5px;
+}
