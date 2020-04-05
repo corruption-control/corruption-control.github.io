@@ -9,8 +9,8 @@ body{
 }
 #logo img{
     margin:0 auto;
-    padding-top: 20px;
-    width: 28%;
+    
+    width: 25%;
 }
 @media(max-width:768px){
     #logo img{
@@ -73,12 +73,9 @@ body{
 #icons .what{
     color: #25d366;
 }
-#icons .fas{
+#icons .twit{
     color: #ea4335;
-    margin: 5px 15px;
-    position: relative;
-    bottom: 0;
-    transition: all 0.2s ease-in-out;
+    
 }
 #icons .insta:hover{
     color: #dd2a7b;
@@ -95,4 +92,20 @@ body{
 #icons .what:hover{
     color: #25d366;
     bottom: 5px;
+}
+#signup {
+    text-align: center;
+}
+
+#signup .form-inline {
+    display: block;
+}
+
+#signup .btn {
+    background-color: rgba(161,186,226,0.5);
+    color: white;
+}
+
+#signup .btn:hover {
+    background-color:rgba(37,165,82,1);
 }
